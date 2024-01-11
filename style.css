@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 3rem;
+}
+
+li{
+    list-style: none;
+}
+
+.whole{
+    margin: 50px 250px;
+    font-size: 20px;
+}
+
+.ey1 h1{
+    margin-bottom: 20px;
+}
+
+.ey1{
+    margin-bottom: 50px;
+}
+
+.ey3 h1{
+    margin-bottom: 20px;
+}
+
+.ey3 {
+    margin-bottom: 50px;
+}
+
+.ey5 h1{
+    margin-bottom: 20px;
+}
+
+.ey5 {
+    margin-bottom: 50px;
+}
+
+video{
+    margin-left: 100px;
+    width: 800px;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+
+.ey7 h1{
+    margin-bottom: 20px;
+}
+
+img {
+    width: 400px;
+    margin-left: 275px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.piktyur {
+    transition: 0.5s ease-in-out;
+}
+
+.piktyur:hover{
+    width: 400px;
+    scale: 1;
+    box-shadow:10px 10px 10px 10px black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 20px;
+}
